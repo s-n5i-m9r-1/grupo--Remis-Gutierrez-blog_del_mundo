@@ -1,14 +1,43 @@
+/*Grid*/
+section{
+    display:grid;
+    grid-template-columns: repeat (12, 1fr);
+    grid-auto-rows: auto;
+    gap:1rem;
+}
+
+section>header{
+    grid-column: span 12;
+}
+section>main{
+    grid-column: span 8;
+}
+
+
+
 body{
-    background-color:aliceblue;
+    background-color:goldenrod;color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p{
-    color:black;
-    font-size: 15px;
-    text-align:center;
+article{
+    background-color: rgb(44, 43, 43); 
+    padding: 1.5rem;
+    border-bottom: 1px solid;color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2{
-    text-align:center;
-    color:aliceblue;
+
+.titulo_del_blog{
+    text-align: center;
+    font-size: 2rem;
 }
+
+
+
+.footer_blog{
+    margin: 2rem;
+}
+
+
+
