@@ -1,36 +1,40 @@
+/*Grid*/
+section{
+    display:grid;
+    grid-template-columns: repeat (12, 1fr);
+    grid-auto-rows: auto;
+    gap:1rem;
+}
+
+section>header{
+    grid-column: span 12;
+}
+section>main{
+    grid-column: span 8;
+}
+
+
+
 body{
-    background-color: black;color: white;
+    background-color:goldenrod;color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 article{
-    background-color: rgb(44, 43, 43) 
+    background-color: rgb(44, 43, 43); 
+    padding: 1.5rem;
+    border-bottom: 1px solid;color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav> ul >li {
 
-}
-
-.resaltado{
-    color: rgb(228, 228, 37);
-}
-
-#titulo_del_blog{
+.titulo_del_blog{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
-.resaltado2{
-    color: blanchedalmond;
-}
 
-.ilustracion{
-
-}
-
-.ilustracion figcaption{
-
-}
 
 .footer_blog{
-
+    margin: 2rem;
 }
