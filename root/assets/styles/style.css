@@ -6,6 +6,7 @@ section{
     gap:1rem;
 }
 
+
 section>header{
     grid-column: span 12;
 }
