@@ -19,6 +19,7 @@ section>main{
 body{
     background-color:goldenrod;color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 article{
@@ -48,6 +49,9 @@ nav>ul>li {
 nav>ul>li>a {
     text-decoration: none;
 }
+header {
+    text-align:center;
+}     
 
 
 
