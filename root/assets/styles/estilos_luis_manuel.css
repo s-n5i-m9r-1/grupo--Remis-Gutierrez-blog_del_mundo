@@ -38,3 +38,16 @@ article{
 .footer_blog{
     margin: 2rem;
 }
+
+nav>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+}
+
+header {
+    text-align:center;
+}     
+
