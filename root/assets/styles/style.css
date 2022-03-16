@@ -54,6 +54,12 @@ nav>ul>li>a {
 header {
     text-align:center;
 }     
+section>aside{
+    grid-column: span 4;
+}     
+section>footer{
+    grid-column: span 12;
+} 
 
 
 
