@@ -19,7 +19,7 @@ section>main{
 
 
 body{
-    background-color:rgba(133, 17, 17, 0.938);color: white;
+    background-color:rgba(175, 10, 10, 0.945);color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
@@ -72,6 +72,11 @@ nav>ul{
     border-bottom: 1px solid; 
     color:white;
     padding-bottom: 0.5rem;
+}
+
+article>footer{
+    text-align:center;
+
 }
 
 
