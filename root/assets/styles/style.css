@@ -19,15 +19,15 @@ section>main{
 
 
 body{
-    background-color:rgba(175, 10, 10, 0.945);color: white;
+    background-color:rgb(194, 8, 8);color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
 article{
-    background-color: rgb(44, 43, 43); 
+    background-color: rgb(48, 44, 46); 
     padding: 1.5rem;
-    border-bottom: 1px solid;color: white;
+    border-bottom: 1px solid;color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
