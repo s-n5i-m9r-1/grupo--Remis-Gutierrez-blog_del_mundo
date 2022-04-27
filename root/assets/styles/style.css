@@ -19,7 +19,7 @@ section>main{
 
 
 body{
-    background-color:goldenrod;color: white;
+    background-color:rgba(133, 17, 17, 0.938);color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
@@ -46,10 +46,14 @@ article{
 
 nav>ul>li {
     list-style: none;
+    
 }
 
 nav>ul>li>a {
     text-decoration: none;
+    color:white;
+    
+    
 }
 header {
     text-align:center;
@@ -65,9 +69,13 @@ nav>ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid; color:white;
+    border-bottom: 1px solid; 
+    color:white;
     padding-bottom: 0.5rem;
 }
+
+
+
 
 
 
