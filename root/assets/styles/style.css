@@ -10,7 +10,7 @@ section{
 
 section>header{
     grid-column: span 12;
-    
+        
 }
 section>main{
     grid-column: span 8;
@@ -18,8 +18,9 @@ section>main{
 
 
 
+
 body{
-    background-color:rgb(25, 22, 207);color: rgb(255, 255, 255);
+    background-color:rgba(223, 7, 7, 0.849);color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
@@ -34,13 +35,7 @@ article{
 
 .titulo_del_blog{
     text-align: center;
-    font-size: 2rem;
-}
-
-
-
-.footer_blog{
-    margin: 2rem;
+    font-size: 1rem;
 }
 
 
@@ -53,10 +48,31 @@ nav>ul>li>a {
     text-decoration: none;
     color:white;
     
-    
 }
+
+aside>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+
+nav{
+    position:fixed;
+    width: 100%;
+    background-color: rgba(78, 74, 74, 0.863);
+    padding: 0.2rem;
+    font-size: 1.0rem;
+}
+
+
 header {
     text-align:center;
+    
 }     
 section>aside{
     grid-column: span 4;
@@ -75,9 +91,16 @@ nav>ul{
 }
 
 article>footer{
+    list-style: none;
     text-align:center;
+    grid-column:span 8;
 
 }
+article>footer>h3{
+    text-align:left;
+
+}
+
 
 
 
